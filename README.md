@@ -94,3 +94,79 @@ Color opacity can be defined with specific opacity values that runs from one(1) 
    + ```10``` sets opacity level to 0
 
 Once we are familiar with the color opacity utility classes such as ```co-```, ```cho-```, ```bdo-```, ```bdho-```, ```oco-``` and ```oho-``` classes, we can apply any of the color opacity values specified above.
+
+#### Helper List 
+The following lists provides easier description of the color classes 
+
+   + ```c-``` sets text color
+   + ```ch-``` sets text hover color
+   + ```co-``` sets text color opacity
+   + ```cho-``` sets text color hover opacity
+   + ```bc-``` sets background color
+   + ```bh-``` sets background hover color
+   + ```bco-``` sets background color opacity
+   + ```bho-``` sets background color hover opacity
+   + ```bd-``` sets border color, thickness level or inheritance
+   + ```bd-ch``` sets border color inheritance from font color
+   + ```bd-xs``` sets the top and bottom borders to transparent
+   + ```bd-xl``` sets the top, bottom and right borders to transparent
+   + ```bd-xr``` sets the top, bottom and left borders to transparent
+   + ```bd-vs``` sets the right and left borders to transparent
+   + ```bd-vt``` sets the right, left and bottom borders to transparent
+   + ```bd-vb``` sets the right, left and top borders to transparent
+   + ```bd-f```  removes borders entirely
+   + ```oc-``` sets border color, thickness level or inheritance
+   + ```oc-ch``` sets border color inheritance from font color
+   + ```oc-f``` removes outline entirely
+
+#### Color List 
+Colors are specified by color shades which ranges from a selected color to a dark shade ```-d``` or darker shade 
+```-dd```. There are about 116 colors and shades. While the 116 colors will not be listed, the selected base colors are listed below: 
+
+   + ```black```
+   + ```white```
+   + ```off-white```
+   + ```blue```
+   + ```red```
+   + ```yellow```
+   + ```green```
+   + ```orange```
+   + ```purple```
+   + ```violet```
+   + ```magenta```
+   + ```teal```
+   + ```lime```
+   + ```indigo```
+   + ```pink```
+   + ```aqua```
+   + ```bronze```
+   + ```silver```
+   + ```gold```
+   + ```gold```
+   + ```brown```
+   + ```crimson```
+   + ```grey```
+   + ```grey```
+   + ```ivory```
+   + ```maroon```
+   + ```olive```
+   + ```sea-green```
+   + ```sea-blue```
+   + ```tan```
+   + ```blue-violet```
+   + ```dry-blue```
+   + ```steel-blue```
+   + ```dodger-blue```
+   + ```deep-blue```
+   + ```deeper-blue```
+   + ```rebecca-purple```
+   + ```slate-grey```
+   + ```red-orange```
+
+   > Each of the colors above may be stepped down to dark shade with the ```-d``` or darker shade ```-dd``` suffixes. For example, a dark shade of  ```teal``` is ```teal-d``` while a darker shade is the ```teal-dd``` class. This color can then be applied for either backgound, text, borders or outlines using the relative property idenfiers. For example: 
+
+   + A color of ```teal``` will be ```c-teal```
+   + A dark color ```teal-d``` will be ```c-teal-d```
+   + A darker color ```teal-dd``` will be ```c-teal-dd```
+
+   > By using the formats above we can also apply colors for backgrounds, borders, outlines and hover effects. This also makes it easier to control opacity level of each colors through relative color opacity levels
