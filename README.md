@@ -17,43 +17,41 @@ Colors can be applied for:
    + Borders specified with  ```bd-```, ```bdh-```, ```bdo-``` and ```bdho-```
    + Outlines specified with  ```oc-```, ```oh-```, ```oco-```, ```oho-```
 
-    ##### Text Colors 
-    Text colors can be applied with the ```c-``` class or ```ch-``` color hover class followed by any of the supported color names (e.g c-red). However, color effects are applied based on hover and opacity level. The ```co-``` and ```cho``` classes apply color based on color opacity level and color hover opacity level respectively. While ```co-``` will apply opacity for ```c-``` utility group, the ```cho``` applied opacity for 
+   ##### Text Colors 
+   Text colors can be applied with the ```c-``` class or ```ch-``` color hover class followed by any of the supported color names (e.g c-red). However, color effects are applied based on hover and opacity level. The ```co-``` and ```cho``` classes apply color based on color opacity level and color hover opacity level respectively. While ```co-``` will apply opacity for ```c-``` utility group, the ```cho``` applied opacity for 
     ```ch``` hover utility group.
 
-    ##### Background Colors 
-    Similarly to text colors, background colors can be applied with the ```bc-``` or ```bch-``` background color hover class followed by any of the supported color names. However, background color effects are applied based on hover and opacity level. The ```bch-```, ```bco-``` ```bho-``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively. 
+   ##### Background Colors 
+   Similarly to text colors, background colors can be applied with the ```bc-``` or ```bch-``` background color hover class followed by any of the supported color names. However, background color effects are applied based on hover and opacity level. The ```bch-```, ```bco-``` ```bho-``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively. 
 
-    + Dark mode background color overlays can be specified with the ```ov-d``` classes while light mode can be specified with ```ov-l``` classes. Applicable values suffixes ranges from lowest ```1``` to highest ```8```. 
+   + Dark mode background color overlays can be specified with the ```ov-d``` classes while light mode can be specified with ```ov-l``` classes. Applicable values suffixes ranges from lowest ```1``` to highest ```8```. 
     For example, ```ov-d1``` sets a dark background with opacity of 0.1 while ```ov-l1``` sets white background with opacity level of 0.1.
 
-    ##### Border Colors 
-    The border colors can also be applied with the ```bd-``` class followed by any of the supported color names. The border color effects are applied based on hover and opacity level. The ```bdh-```, ```bdo-``` ```bdho``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively. 
+   ##### Border Colors 
+   The border colors can also be applied with the ```bd-``` class followed by any of the supported color names. The border color effects are applied based on hover and opacity level. The ```bdh-```, ```bdo-``` ```bdho``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively. 
     
-    + Border colors can also inherit border colors from parent element through the ```bd-i``` class or ```bd-ih``` hover class.
+   + Border colors can also inherit border colors from parent element through the ```bd-i``` class or ```bd-ih``` hover class.
     
-    + Naturally, border colors not specified will inherit colors from the text color. However, when hovered upon borders can inherit colors from the current text color through the ```bd-ch``` class.
+   + Naturally, border colors not specified will inherit colors from the text color. However, when hovered upon borders can inherit colors from the current text color through the ```bd-ch``` class.
 
-    + To remove borders entirely from an element, the ```bd-f``` class can be applied
+   + To remove borders entirely from an element, the ```bd-f``` class can be applied
 
-    ##### Outline Colors 
-    The outine colors can be applied just like the borders. It uses the ```oc-``` class followed by any of the supported color names to apply colors. The ```oh-```, ```oco-``` and ```oho-``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively.
+   ##### Outline Colors 
+   The outine colors can be applied just like the borders. It uses the ```oc-``` class followed by any of the supported color names to apply colors. The ```oh-```, ```oco-``` and ```oho-``` classes apply color based on color hover effect, color opacity level and color hover opacity level respectively.
     
-    + Outline colors can inherit outline colors from parent element through the ```oc-i``` class or ```oc-ih``` hover class.
+   + Outline colors can inherit outline colors from parent element through the ```oc-i``` class or ```oc-ih``` hover class.
     
-    + Naturally, outline colors not specified will inherit colors from the text color. However, when hovered upon outlines can inherit colors from the current text color through the ```oc-ch``` class.
+   + Naturally, outline colors not specified will inherit colors from the text color. However, when hovered upon outlines can inherit colors from the current text color through the ```oc-ch``` class.
 
-    + To remove outlines entirely from an element, the ```oc-f``` class can be applied
+   + To remove outlines entirely from an element, the ```oc-f``` class can be applied
 
-    ##### Transparent Colors 
-    Transparent colors are specified with the ending ```t``` directive for specified color utility classes. 
+   ##### Transparent Colors 
+   Transparent colors are specified with the ending ```t``` directive for specified color utility classes. 
     
-    + ```ct``` color transparent
-    + ```bt``` background color transparent
-    + ```bd-t``` border color transparent
-    + ```bdh-t``` border hover color transparent
-
-     .
+   + ```ct``` color transparent
+   + ```bt``` background color transparent
+   + ```bd-t``` border color transparent
+   + ```bdh-t``` border hover color transparent
 
 #### Outlines and offsets
 Outline offsets are controlled with the ```oo-``` class which sets the offsets in pixels for the outline property of an element. The ```ooh-``` however, sets the offset for hover mode. The outline's offset value runs from one(1) 
